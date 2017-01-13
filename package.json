@@ -1,8 +1,9 @@
 {
   "name": "nextjs-starter",
-  "private": false,
+  "private": true,
   "dependencies": {
-    "next": "^2.0.0-beta"
+    "next": "^2.0.0-beta",
+    "styled-components": "1.2.1"
   },
   "devDependencies": {
     "babel-eslint": "7.0.0",

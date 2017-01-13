@@ -1,7 +1,34 @@
 import React from 'react'
 import Router from 'next/router'
+import styled from 'styled-components'
 
 import Modal from '../components/modal'
+
+const List = styled.div`
+  padding: 50px;
+  text-align: center;
+`
+
+const Photo = styled.div`
+  display: inline-block;
+`
+
+const PhotoLink = styled.a`
+  color: #333;
+  verticalAlign: middle;
+  cursor: pointer;
+  background: #eee;
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  line-height: 250px;
+  margin: 10px;
+  border: 2px solid transparent;
+
+  '&:hover': {
+    borderColor: blue;
+  }
+`
 
 export default class extends React.Component {
   static getInitialProps () {
@@ -44,55 +71,21 @@ export default class extends React.Component {
     const { url, photos } = this.props
 
     return (
-      <div className='list'>
+      <List>
         {
           url.query.photoId &&
-            <Modal
-              id={url.query.photoId}
-              onDismiss={() => this.dismissModal()}
-            />
+            <Modal id={url.query.photoId} onDismiss={() => this.dismissModal()} />
         }
         {
           photos.map((id) => (
-            <div key={id} className='photo'>
-              <a
-                className='photoLink'
-                href={`/photo?id=${id}`}
-                onClick={(e) => this.showPhoto(e, id)}
-              >
+            <Photo key={id} className='photo'>
+              <PhotoLink href={`/photo?id=${id}`} onClick={(e) => this.showPhoto(e, id)}>
                 {id}
-              </a>
-            </div>
+              </PhotoLink>
+            </Photo>
           ))
         }
-        <style jsx>{`
-          .list {
-            padding: 50px;
-            text-align: center;
-          }
-
-          .photo {
-            display: inline-block;
-          }
-
-          .photoLink {
-            color: #333;
-            verticalAlign: middle;
-            cursor: pointer;
-            background: #eee;
-            display: inline-block;
-            width: 250px;
-            height: 250px;
-            line-height: 250px;
-            margin: 10px;
-            border: 2px solid transparent;
-          }
-
-          .photoLink:hover {
-            borderColor: blue;
-          }
-        `}</style>
-      </div>
+      </List>
     )
   }
 }

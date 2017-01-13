@@ -1,58 +1,57 @@
 import React from 'react'
 import Link from 'next/link'
+import styled from 'styled-components'
+
+const Photo = styled.div`
+  width: 800px;
+  overflow: hidden;
+  height: 500px;
+  display: inline-block;
+`;
+
+const Image = styled.div`
+  float: left;
+  width: 600px;
+  height: 500px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 500px;
+  font-size: 40px;
+`;
+
+const Sidebar = styled.div`
+  float: right;
+  background: #fff;
+  width: 200px;
+  height: 500px;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 20px;
+  font-family: Monaco;
+  font-size: 11px;
+`
+
+const SidebarList = styled.ul`
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+`
 
 export default ({ id }) => (
-  <div className='photo'>
-    <div className='image'>
+  <Photo>
+    <Image>
       {id}
-    </div>
+    </Image>
 
-    <div className='sidebar'>
-      <ul className='sidebarList'>
+    <Sidebar>
+      <SidebarList>
         <li>
           <Link href='/profile?id=nkzawa'>@nkzawa</Link>
           - Great photo!
         </li>
-      </ul>
-    </div>
-
-    <style jsx>{`
-      .photo {
-        width: 800px;
-        overflow: hidden;
-        height: 500px;
-        display: inline-block;
-      }
-
-      .image {
-        float: left;
-        width: 600px;
-        height: 500px;
-        background: #333;
-        color: #fff;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 500px;
-        font-size: 40px;
-      }
-
-      .sidebar {
-        float: right;
-        background: #fff;
-        width: 200px;
-        height: 500px;
-        text-align: left;
-        box-sizing: border-box;
-        padding: 20px;
-        font-family: Monaco;
-        font-size: 11px;
-      }
-
-      .sidebarList {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-    `}</style>
-  </div>
+      </SidebarList>
+    </Sidebar>
+  </Photo>
 )

@@ -1,5 +1,24 @@
 import React from 'react'
+import styled from 'styled-components'
+
 import Photo from './frame'
+
+const Shim = styled.div`
+  position: fixed;
+  background: rgba(0,0,0,.65);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+`
+
+const PhotoWrapper = styled.div`
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -250px;
+`
 
 export default class extends React.Component {
   dismiss (e) {
@@ -13,29 +32,11 @@ export default class extends React.Component {
 
   render () {
     return (
-      <div ref={el => (this._shim = el)} className='shim' onClick={(e) => this.dismiss(e)}>
-        <div ref={el => (this._photoWrap = el)} className='photo'>
+      <Shim ref={el => (this._shim = el)} onClick={(e) => this.dismiss(e)}>
+        <PhotoWrapper ref={el => (this._photoWrap = el)}>
           <Photo id={this.props.id} />
-        </div>
-        <style jsx>{`
-          .shim {
-            position: fixed;
-            background: rgba(0,0,0,.65);
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-          }
-
-          .photo {
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            margin-top: -250px;
-          }
-        `}</style>
-      </div>
+        </PhotoWrapper>
+      </Shim>
     )
   }
 }

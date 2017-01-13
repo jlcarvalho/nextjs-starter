@@ -1,24 +1,24 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const Main = styled.div`
+  padding: 100px;
+`
+
+const Heading = styled.h1`
+  font: 15px Monaco;
+`
+
+const Username = styled.b`
+  color: blue;
+`
 
 export default ({ url: { query: { id } } }) => (
-  <div className='main'>
-    <h1 className='heading'>
+  <Main>
+    <Heading>
       User profile:
       {' '}
-      <b className='username'>{id}</b>
-    </h1>
-    <style jsx>{`
-      .main {
-        padding: 100px;
-      }
-
-      .heading {
-        font: 15px Monaco;
-      }
-
-      .username {
-        color: blue;
-      }
-    `}</style>
-  </div>
+      <Username>{id}</Username>
+    </Heading>
+  </Main>
 )
