@@ -32,8 +32,8 @@ export default class extends React.Component {
 
   render () {
     return (
-      <Shim ref={el => (this._shim = el)} onClick={(e) => this.dismiss(e)}>
-        <PhotoWrapper ref={el => (this._photoWrap = el)}>
+      <Shim innerRef={el => (this._shim = el)} onClick={(e) => this.dismiss(e)}>
+        <PhotoWrapper innerRef={el => (this._photoWrap = el)}>
           <Photo id={this.props.id} />
         </PhotoWrapper>
       </Shim>
