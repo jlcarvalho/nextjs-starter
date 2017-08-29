@@ -1,138 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`With Snapshot Testing App have 15 photos 1`] = `
 <div
-  className="eJZqBy">
+  className="pages__List-s1lu59lt-0 fBugCM"
+>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=1"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       1
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=2"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       2
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=3"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       3
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=4"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       4
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=5"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       5
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=6"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       6
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=7"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       7
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=8"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       8
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=9"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       9
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=10"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       10
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=11"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       11
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=12"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       12
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=13"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       13
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=14"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       14
     </a>
   </div>
   <div
-    className="photo cvAvXt">
+    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+  >
     <a
-      className="gtyyUL"
+      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
       href="/photo?id=15"
-      onClick={[Function]}>
+      onClick={[Function]}
+    >
       15
     </a>
   </div>

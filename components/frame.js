@@ -7,7 +7,7 @@ const Photo = styled.div`
   overflow: hidden;
   height: 500px;
   display: inline-block;
-`;
+`
 
 const Image = styled.div`
   float: left;
@@ -19,7 +19,7 @@ const Image = styled.div`
   vertical-align: middle;
   line-height: 500px;
   font-size: 40px;
-`;
+`
 
 const Sidebar = styled.div`
   float: right;
@@ -48,7 +48,7 @@ export default ({ id }) => (
     <Sidebar>
       <SidebarList>
         <li>
-          <Link href='/profile?id=nkzawa'>@nkzawa</Link>
+          <Link href='/profile?id=nkzawa'><a>@nkzawa</a></Link>
           - Great photo!
         </li>
       </SidebarList>
