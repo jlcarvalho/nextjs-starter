@@ -1,40 +1,43 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Photo from './frame'
+import Frame, { Photo } from './frame'
 
 const Shim = styled.div`
   position: fixed;
-  background: rgba(0,0,0,.65);
-  left: 0;
-  right: 0;
   top: 0;
+  right: 0;
   bottom: 0;
+  left: 0;
   margin: auto;
+  background: rgba(0, 0, 0, 0.65);
 `
 
 const PhotoWrapper = styled.div`
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  margin-top: -250px;
+  ${Photo} {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+  }
 `
 
 export default class extends React.Component {
-  dismiss (e) {
-    if (this._shim === e.target ||
-       this._photoWrap === e.target) {
+  dismiss(e) {
+    if (this._shim === e.target || this._photoWrap === e.target) {
       if (this.props.onDismiss) {
         this.props.onDismiss()
       }
     }
   }
 
-  render () {
+  render() {
     return (
-      <Shim innerRef={el => (this._shim = el)} onClick={(e) => this.dismiss(e)}>
-        <PhotoWrapper innerRef={el => (this._photoWrap = el)}>
-          <Photo id={this.props.id} />
+      <Shim ref={el => (this._shim = el)} onClick={e => this.dismiss(e)}>
+        <PhotoWrapper ref={el => (this._photoWrap = el)}>
+          <Frame id={this.props.id} />
         </PhotoWrapper>
       </Shim>
     )

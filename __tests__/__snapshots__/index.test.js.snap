@@ -2,13 +2,13 @@
 
 exports[`With Snapshot Testing App have 15 photos 1`] = `
 <div
-  className="pages__List-s1lu59lt-0 fBugCM"
+  className="pages__List-i5na9l-0 gPUnQo"
 >
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=1"
       onClick={[Function]}
     >
@@ -16,10 +16,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=2"
       onClick={[Function]}
     >
@@ -27,10 +27,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=3"
       onClick={[Function]}
     >
@@ -38,10 +38,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=4"
       onClick={[Function]}
     >
@@ -49,10 +49,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=5"
       onClick={[Function]}
     >
@@ -60,10 +60,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=6"
       onClick={[Function]}
     >
@@ -71,10 +71,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=7"
       onClick={[Function]}
     >
@@ -82,10 +82,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=8"
       onClick={[Function]}
     >
@@ -93,10 +93,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=9"
       onClick={[Function]}
     >
@@ -104,10 +104,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=10"
       onClick={[Function]}
     >
@@ -115,10 +115,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=11"
       onClick={[Function]}
     >
@@ -126,10 +126,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=12"
       onClick={[Function]}
     >
@@ -137,10 +137,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=13"
       onClick={[Function]}
     >
@@ -148,10 +148,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=14"
       onClick={[Function]}
     >
@@ -159,10 +159,10 @@ exports[`With Snapshot Testing App have 15 photos 1`] = `
     </a>
   </div>
   <div
-    className="photo pages__Photo-s1lu59lt-1 hruoEx"
+    className="photo pages__Photo-i5na9l-1 fSGMVP"
   >
     <a
-      className="pages__PhotoLink-s1lu59lt-2 fOvGmE"
+      className="pages__PhotoLink-i5na9l-2 fMvThH"
       href="/photo?id=15"
       onClick={[Function]}
     >

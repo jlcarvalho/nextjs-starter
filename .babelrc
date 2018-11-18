@@ -1,6 +1,17 @@
 {
   "plugins": [
-    ["babel-plugin-styled-components", { "ssr": true, "displayName": true, "preprocess": false } ]
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
   ],
-  "presets": ["react", "es2015", "next/babel", "stage-0", "stage-1"]
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-env",
+    "next/babel"
+  ]
 }

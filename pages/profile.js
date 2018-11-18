@@ -6,19 +6,21 @@ const Main = styled.div`
 `
 
 const Heading = styled.h1`
-  font: 15px Monaco;
+  font: 15px Monaco, sans-serif;
 `
 
 const Username = styled.b`
   color: blue;
 `
 
-export default ({ url: { query: { id } } }) => (
+export default ({
+  url: {
+    query: { id },
+  },
+}) => (
   <Main>
     <Heading>
-      User profile:
-      {' '}
-      <Username>{id}</Username>
+      User profile: <Username>{id}</Username>
     </Heading>
   </Main>
 )
